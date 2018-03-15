@@ -14,7 +14,7 @@ public enum EstadoPagamento {
 		this.descricao = descricao;
 	}
 
-	public int getCodigo() {
+	public int getCod() {
 		return codigo;
 	}
 
@@ -31,7 +31,7 @@ public enum EstadoPagamento {
 		
 		for (EstadoPagamento x : EstadoPagamento.values()) {
 			
-			if (cod.equals(x.getCodigo())) {
+			if (cod.equals(x.getCod())) {
 				return x;
 			}
 			
@@ -40,6 +40,4 @@ public enum EstadoPagamento {
 		throw new IllegalArgumentException("Id inválido: " + cod);
 		
 	}
-
-	
 }
