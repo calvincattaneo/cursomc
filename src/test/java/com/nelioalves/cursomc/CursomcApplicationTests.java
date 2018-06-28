@@ -11,6 +11,7 @@ public class CursomcApplicationTests {
 
 	@Test
 	public void contextLoads() {
+	    System.out.println("Teste");
 	}
 
 }
